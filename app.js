@@ -29,7 +29,7 @@ async function loadBikeData() {
     imageElement.src = bike.foto;
     imageElement.alt = bike.alt || "Foto da bike atual do Rafael";
     modelElement.textContent = bike.modelo;
-    counterElement.textContent = `Rafael esta a ${daysWithoutChange} dias sem trocar de bike`;
+    counterElement.textContent = `Rafael está há ${daysWithoutChange} dias sem trocar de bike.`;
   } catch (error) {
     modelElement.textContent = "Erro ao carregar dados.";
     counterElement.textContent =
