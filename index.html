@@ -21,7 +21,28 @@
         <p class="label">Modelo atual</p>
         <p id="bike-model" class="bike-model">Carregando...</p>
 
-        <p id="days-without-change" class="counter">Carregando...</p>
+        <div class="counter-row">
+          <p id="days-without-change" class="counter">Carregando...</p>
+          <span
+            id="current-record-badge"
+            class="record-badge"
+            hidden
+            aria-label="Recorde de dias com a mesma bike"
+            >Recorde</span>
+        </div>
+      </section>
+
+      <section
+        id="historico-section"
+        class="historico-section card"
+        aria-labelledby="historico-heading"
+        hidden
+      >
+        <h2 id="historico-heading" class="historico-title">Histórico de bikes</h2>
+        <p class="historico-intro">
+          Compra, venda e tempo com cada modelo (mais recente primeiro).
+        </p>
+        <div id="historico-root" class="historico-root"></div>
       </section>
     </main>
 

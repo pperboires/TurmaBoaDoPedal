@@ -1,6 +1,14 @@
 {
-  "modelo": "Pinarello Dogma F10",
-  "foto": "./bike.jpeg",
-  "alt": "Foto da bike atual do Rafael",
-  "ultimaTrocaEm": "2026-03-24"
+  "modelo": "Specialized Verde",
+  "foto": "./bike_2.jpeg",
+  "alt": "Foto da bike atual do Rafael — Specialized Verde",
+  "ultimaTrocaEm": "2026-05-02",
+  "historico": [
+    {
+      "modelo": "Pinarello Dogma F10",
+      "foto": "./bike.jpeg",
+      "comprouEm": "2026-03-24",
+      "vendeuEm": "2026-05-02"
+    }
+  ]
 }
